@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap");
+a {
+  text-decoration: none;
+  color: #2C2F40;
+}
+
+#footer {
+  margin-top: 2rem;
+  background-color: #F2F3F9;
+  padding: 30px;
+}
+
+#footer .topFoot {
+  padding: 30px 0;
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+#footer .topFoot .numberBox p i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#footer .topFoot .numberBox p span {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Jost, sans-serif;
+}
+
+#footer .topFoot .iconBox i {
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-right: 3px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+#footer .topFoot .iconBox .facebook {
+  background-color: #1877F2;
+  padding: 13px 15px;
+  border: 1px solid #1877F2;
+}
+
+#footer .topFoot .iconBox .facebook:hover {
+  background-color: white;
+  color: #1877F2;
+}
+
+#footer .topFoot .iconBox .twitter {
+  background-color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+}
+
+#footer .topFoot .iconBox .twitter:hover {
+  background-color: white;
+  color: #1DA1F2;
+}
+
+#footer .topFoot .iconBox .instagram {
+  background-color: red;
+  border: 1px solid red;
+}
+
+#footer .topFoot .iconBox .instagram:hover {
+  background-color: white;
+  color: red;
+}
+
+#footer .topFoot .iconBox .linked {
+  background-color: #115bbb;
+  border: 1px solid #115bbb;
+}
+
+#footer .topFoot .iconBox .linked:hover {
+  background-color: white;
+  color: #115bbb;
+}
+
+#footer .midFoot {
+  width: 80%;
+  margin: auto;
+  font-family: Jost, sans-serif;
+  padding: 30px 0;
+}
+
+#footer .midFoot .helpBox {
+  padding: 35px;
+  background-color: #EBEDF5;
+}
+
+#footer .midFoot .helpBox h5 {
+  font-size: 16px;
+  font-family: Jost, sans-serif;
+}
+
+#footer .midFoot .helpBox ul li a {
+  display: block;
+  padding: 8px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+}
+
+#footer .midFoot .helpBox ul li a i {
+  margin-right: 10px;
+}
+
+#footer .midFoot .helpBox ul li a:hover {
+  color: #769881;
+}
+
+#footer .midFoot .midBoxs {
+  padding: 30px;
+}
+
+#footer .midFoot .midBoxs h5 {
+  font-size: 16px;
+}
+
+#footer .midFoot .midBoxs ul li a {
+  display: block;
+  padding: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 400;
+}
+
+#footer .midFoot .midBoxs ul li a:hover {
+  color: #769881;
+}
+
+#footer .midFoot .midBoxs .payment {
+  margin-top: 30px;
+}
+
+#footer .midFoot .midBoxs .payment h5 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#footer .midFoot .registerBox {
+  position: relative;
+}
+
+#footer .midFoot .registerBox h5 {
+  font-size: 16px;
+}
+
+#footer .midFoot .registerBox input {
+  padding: 13px;
+  font-size: 15px;
+  border: none;
+}
+
+#footer .midFoot .registerBox ::-webkit-input-placeholder {
+  padding: 5px;
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .midFoot .registerBox :-ms-input-placeholder {
+  padding: 5px;
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .midFoot .registerBox ::-ms-input-placeholder {
+  padding: 5px;
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .midFoot .registerBox ::placeholder {
+  padding: 5px;
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#footer .midFoot .registerBox .arrow {
+  position: absolute;
+  top: 13.5%;
+  right: 9%;
+}
+
+#footer .midFoot .registerBox .arrow i {
+  padding: 16px;
+  background-color: #769881;
+  color: #fff;
+}
+
+#footer .midFoot .registerBox .downloadBox {
+  margin-top: 30px;
+}
+
+#footer .midFoot .registerBox .downloadBox h5 {
+  margin-bottom: 15px;
+}
+
+#footer .midFoot .registerBox .downloadBox img {
+  margin-right: 5px;
+}
+
+@media (max-width: 576px) {
+  #footer .topFoot {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+  }
+  #footer .topFoot .imgBox {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #footer .topFoot .numberBox {
+    width: 100%;
+    display: block;
+  }
+  #footer .topFoot .numberBox p {
+    font-size: 15px;
+  }
+  #footer .topFoot .numberBox p span {
+    font-size: 17px;
+  }
+  #footer .topFoot .iconBox {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+  }
+  #footer .midFoot {
+    width: 100%;
+  }
+  #footer .midFoot .helpBox {
+    width: 100%;
+    margin: 0;
+  }
+  #footer .midFoot .midBoxs {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+  }
+  #footer .midFoot .midBoxs .payment img {
+    width: 80%;
+    height: 140px;
+  }
+  #footer .midFoot .registerBox {
+    position: relative;
+    padding: 30px 0;
+    width: 100%;
+  }
+  #footer .midFoot .registerBox input {
+    width: 100%;
+  }
+  #footer .midFoot .registerBox .arrow {
+    position: absolute;
+    right: 0%;
+    top: 25%;
+  }
+  #footer .midFoot .registerBox .downloadBox {
+    margin-top: 2rem;
+  }
+  #footer .midFoot .registerBox .downloadBox img {
+    margin-right: 15px;
+    width: 45%;
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

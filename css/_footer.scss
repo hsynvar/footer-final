@@ -1,0 +1,262 @@
+@import '_variable';
+
+a{
+    text-decoration: none;
+    color: #2C2F40;
+}
+#footer{
+    margin-top: 2rem;
+    background-color: #F2F3F9;
+    padding: 30px;
+    .topFoot{
+        padding: 30px 0;
+        width: 80%;
+        margin: auto;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+        .numberBox{
+            p{
+                i{
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+                span{
+                    font-weight: bold;
+                    font-size: 22px;
+               font-family: Jost, sans-serif;
+                }
+            }
+        }
+        .iconBox{
+            i{
+                color: white;
+                padding: 13px;
+                font-size: 16px;
+                border-radius: 20px;
+                margin-right: 3px;
+                transition: 0.3s ease-in;
+            }
+            .facebook{
+                background-color: #1877F2;
+                padding: 13px 15px;
+                border: 1px solid #1877F2;
+                &:hover{
+                    background-color: white;
+                    color: #1877F2;
+                }  
+            }
+            .twitter{
+                background-color: #1DA1F2;
+                border: 1px solid #1DA1F2;
+
+                &:hover{
+                    background-color: white;
+                    color: #1DA1F2 ;
+                }
+            }
+            .instagram{
+                background-color: red;
+                border: 1px solid red;
+
+                &:hover{
+                    background-color: white;
+                    color: red;
+                }
+            }
+            .linked{
+                background-color:#115bbb;
+                border: 1px solid #115bbb;
+
+                &:hover{
+                    background-color: white;
+                    color: #115bbb;
+
+                   
+                }
+
+            }
+
+        }
+    }
+    // topFoot end 
+    // ------ 
+    // midFoot start 
+    .midFoot{
+        width: 80%;
+        margin: auto;
+        font-family: Jost, sans-serif;
+        padding: 30px 0;
+        .helpBox{
+            padding: 35px ;
+            background-color: #EBEDF5;
+            h5{
+                font-size: 16px;
+               font-family: Jost, sans-serif;
+            }
+            ul{
+                li{
+                    a{
+                        display: block;
+                        padding: 8px;
+                        transition: 0.4s;
+                      font-family: Jost, sans-serif;
+                      font-weight: 400;
+
+                        i{
+                            margin-right: 10px;
+                        }
+                        &:hover{
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+        .midBoxs{
+            padding: 30px;
+            h5{
+                font-size: 16px;
+            }
+            ul{
+                li{
+                    a{
+                        display: block;
+                        padding: 5px;
+                        transition: 0.4s;
+                        font-weight: 400;
+                        &:hover{
+                            color: $green;
+                        } 
+                    }
+                }
+            }
+            .payment{
+                margin-top: 30px;
+                h5{
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+        .registerBox{
+            position: relative;
+            h5{
+                font-size: 16px;
+            }
+            input{
+                padding: 13px;
+                font-size: 15px;
+                border: none;
+
+            }
+            ::placeholder { 
+                padding: 5px;
+                color: $black;
+                font-weight: 400;
+                font-size: 13px;
+                
+              }
+            .arrow{
+                position: absolute;
+                top: 13.5%;
+                right: 9%;
+                i{
+                    padding: 16px;
+                    background-color: $green;
+                    color: $white;
+                }
+            }
+            // downloadBox start 
+            // ----- 
+            .downloadBox{
+                margin-top: 30px;
+                h5{
+                    margin-bottom: 15px;
+                }
+                img{
+                    margin-right: 5px;
+                }
+
+
+            }
+
+        }
+    }
+    // midFoot end 
+    // -------
+}
+
+
+
+@media (max-width: 576px){
+    #footer{
+        .topFoot{
+            width: 100%;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+            .imgBox{
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+
+            }
+            .numberBox{
+                width: 100%;
+                display: block;
+                p{
+                    font-size: 15px;
+                    span{
+                        font-size: 17px;
+                    }
+                }
+
+            }
+            .iconBox{
+                margin-top: 10px;
+                width: 100%;
+                display: block;
+
+            }
+        }
+        // topFoot end 
+        .midFoot{
+            width: 100%;
+            .helpBox{
+                width: 100%;
+                margin: 0;
+            }
+            .midBoxs{
+                width: 100%;
+                margin: 0;
+                padding: 30px 0;
+                .payment{
+                    img{
+                        width: 80%;
+                        height: 140px;
+                    }
+                }
+            }
+            .registerBox{
+                position: relative;
+                padding: 30px 0;
+                width: 100%;
+                input{
+                    width: 100%;
+                }
+                .arrow{
+                    position: absolute;
+                    right: 0%;
+                    top: 25%;
+                }
+                .downloadBox{
+                    margin-top: 2rem;
+                    img{
+                        margin-right: 15px;
+                        width: 45%;
+                        height: 80px;
+                    }
+                }
+            }
+
+        }
+    }
+}
